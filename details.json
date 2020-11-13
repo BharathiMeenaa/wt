@@ -1,0 +1,44 @@
+[
+   {
+      "@uid": "01",
+      "name": "Priya",
+      "phone": "9967256241",
+      "location": "Dindigul",
+      "email": "piriyaa19@gmail.com"
+   },
+   {
+      "@uid": "02",
+      "name": "Karthi",
+      "phone": "9973625411",
+      "location": "Chennai",
+      "email": "karthi55@gmail.com"
+   },
+   {
+      "@uid": "03",
+      "name": "Madhu",
+      "phone": "9366275148",
+      "location": "Villupuram",
+      "email": "madhu2000@gmail.com"
+   },
+   {
+      "@uid": "04",
+      "name": "Meera",
+      "phone": "9964533298",
+      "location": "Theni",
+      "email": "meeramelody@gmail.com"
+   },
+   {
+      "@uid": "05",
+      "name": "Harsi",
+      "phone": "9435612475",
+      "location": "Chennai",
+      "email": "harsi@gmail.com"
+   },
+   {
+      "@uid": "06",
+      "name": "Siva",
+      "phone": "9789502582",
+      "location": "Theni",
+      "email": "sivaa@gmail.com"
+   }
+]

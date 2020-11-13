@@ -1,0 +1,122 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="news">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="thehindu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="worldnews"/>
+              <xs:element type="xs:string" name="nationalnews"/>
+              <xs:element type="xs:string" name="interiornews"/>
+              <xs:element type="xs:string" name="articles"/>
+              <xs:element type="xs:string" name="businessnews"/>
+              <xs:element type="xs:string" name="weather"/>
+              <xs:element type="xs:string" name="sportsnews"/>
+              <xs:element type="xs:string" name="smallstories"/>
+              <xs:element type="xs:string" name="politics"/>
+              <xs:element type="xs:string" name="jewellaryrate"/>
+              <xs:element type="xs:string" name="entertainment"/>
+              <xs:element type="xs:string" name="advertisement"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="code"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="timesofindia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="worldnews"/>
+              <xs:element type="xs:string" name="nationalnews"/>
+              <xs:element type="xs:string" name="interiornews"/>
+              <xs:element type="xs:string" name="articles"/>
+              <xs:element type="xs:string" name="businessnews"/>
+              <xs:element type="xs:string" name="weather"/>
+              <xs:element type="xs:string" name="sportsnews"/>
+              <xs:element type="xs:string" name="smallstories"/>
+              <xs:element type="xs:string" name="politics"/>
+              <xs:element type="xs:string" name="jewellaryrate"/>
+              <xs:element type="xs:string" name="entertainment"/>
+              <xs:element type="xs:string" name="advertisement"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="newscode"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="indianexpress">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="worldnews"/>
+              <xs:element type="xs:string" name="nationalnews"/>
+              <xs:element type="xs:string" name="interiornews"/>
+              <xs:element type="xs:string" name="articles"/>
+              <xs:element type="xs:string" name="businessnews"/>
+              <xs:element type="xs:string" name="weather"/>
+              <xs:element type="xs:string" name="sportsnews"/>
+              <xs:element type="xs:string" name="smallstories"/>
+              <xs:element type="xs:string" name="politics"/>
+              <xs:element type="xs:string" name="jewellaryrate"/>
+              <xs:element type="xs:string" name="entertainment"/>
+              <xs:element type="xs:string" name="advertisement"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="newscode"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dinathanthi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="worldnews"/>
+              <xs:element type="xs:string" name="nationalnews"/>
+              <xs:element type="xs:string" name="interiornews"/>
+              <xs:element type="xs:string" name="articles"/>
+              <xs:element type="xs:string" name="businessnews"/>
+              <xs:element type="xs:string" name="weather"/>
+              <xs:element type="xs:string" name="sportsnews"/>
+              <xs:element type="xs:string" name="smallstories"/>
+              <xs:element type="xs:string" name="politics"/>
+              <xs:element type="xs:string" name="jewellaryrate"/>
+              <xs:element type="xs:string" name="entertainment"/>
+              <xs:element type="xs:string" name="advertisement"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="newscode"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dinaanjal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="worldnews"/>
+              <xs:element type="xs:string" name="nationalnews"/>
+              <xs:element type="xs:string" name="interiornews"/>
+              <xs:element type="xs:string" name="articles"/>
+              <xs:element type="xs:string" name="businessnews"/>
+              <xs:element type="xs:string" name="weather"/>
+              <xs:element type="xs:string" name="sportsnews"/>
+              <xs:element type="xs:string" name="smallstories"/>
+              <xs:element type="xs:string" name="politics"/>
+              <xs:element type="xs:string" name="jewellaryrate"/>
+              <xs:element type="xs:string" name="entertainment"/>
+              <xs:element type="xs:string" name="advertisement"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="newscode"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dhinamalar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="worldnews"/>
+              <xs:element type="xs:string" name="nationalnews"/>
+              <xs:element type="xs:string" name="interiornews"/>
+              <xs:element type="xs:string" name="articles"/>
+              <xs:element type="xs:string" name="businessnews"/>
+              <xs:element type="xs:string" name="weather"/>
+              <xs:element type="xs:string" name="sportsnews"/>
+              <xs:element type="xs:string" name="smallstories"/>
+              <xs:element type="xs:string" name="politics"/>
+              <xs:element type="xs:string" name="jewellaryrate"/>
+              <xs:element type="xs:string" name="entertainment"/>
+              <xs:element type="xs:string" name="advertisement"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="newscode"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

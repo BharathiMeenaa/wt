@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ONLINE NEWS/MAGAZINE PORTAL</title>
+<style>
+	body{
+		background-color:#FFFF00;
+	}
+</style>
+</head>
+
+<body>
+<marquee behaviour = "scroll" direction= "left"><h1 style="color : blue"><strong>NEWS DETAILS :) !!!</strong></h1></marquee>
+<p><center><button onclick="loadXMLDoc()">Click here to view the news in our portal!!</button></center></p>
+
+<table id="demo" border="1" align="center">
+<tr><th>NEWS</th><th>HEADLINES</th><th>PAGENO</th><th>SECTIONS</th></tr>
+</table>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "news.xml" , true);
+  xmlhttp.send();
+}
+
+function myFunction(xml) {
+  var x, i, xmlDoc, table;
+  xmlDoc = xml.responseXML;
+  table = "<tr><th>NEWS</th><th>HEADLINES</th><th>PAGENO</th><th>SECTIONS</th></tr>";
+  x = xmlDoc.getElementsByTagName("CD")
+  for (i = 0; i < x.length; i++) { 
+    table += "<tr><td>"
+	+  x[i].getElementsByTagName("NEWS")[0].childNodes[0].nodeValue + "</td><td>" 
+	+  x[i].getElementsByTagName("HEADLINES")[0].childNodes[0].nodeValue + "</td><td>" 
+	+  x[i].getElementsByTagName("PAGENO")[0].childNodes[0].nodeValue + "</td><td>" 
+	+  x[i].getElementsByTagName("SECTIONS")[0].childNodes[0].nodeValue + "</td><td>"</tr>";
+	
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+<br>
+
+<center><a href="news.xml" style="color : red"><strong> Click here to view the news description!! :) </strong></a></center>
+<br>
+<center><a href="newsjson.html" style="color :#4B0082 "><strong> Please don't miss the "Json Parse()" !! :) </strong></a></center>
+
+</body>
+</html>

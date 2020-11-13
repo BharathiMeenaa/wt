@@ -1,0 +1,101 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT news (thehindu,timesofindia,indianexpress,dinathanthi,
+                dinaanjal,dhinamalar)>
+<!ATTLIST news
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT thehindu (worldnews,nationalnews,interiornews,articles,
+                    businessnews,weather,sportsnews,smallstories,
+                    politics,jewellaryrate,entertainment,advertisement)>
+<!ATTLIST thehindu
+  xmlns CDATA #FIXED ''
+  code NMTOKEN #REQUIRED>
+
+<!ELEMENT timesofindia (worldnews,nationalnews,interiornews,articles,
+                        businessnews,weather,sportsnews,smallstories,
+                        politics,jewellaryrate,entertainment,
+                        advertisement)>
+<!ATTLIST timesofindia
+  xmlns CDATA #FIXED ''
+  newscode NMTOKEN #REQUIRED>
+
+<!ELEMENT indianexpress (worldnews,nationalnews,interiornews,articles,
+                         businessnews,weather,sportsnews,smallstories,
+                         politics,jewellaryrate,entertainment,
+                         advertisement)>
+<!ATTLIST indianexpress
+  xmlns CDATA #FIXED ''
+  newscode NMTOKEN #REQUIRED>
+
+<!ELEMENT dinathanthi (worldnews,nationalnews,interiornews,articles,
+                       businessnews,weather,sportsnews,smallstories,
+                       politics,jewellaryrate,entertainment,
+                       advertisement)>
+<!ATTLIST dinathanthi
+  xmlns CDATA #FIXED ''
+  newscode NMTOKEN #REQUIRED>
+
+<!ELEMENT dinaanjal (worldnews,nationalnews,interiornews,articles,
+                     businessnews,weather,sportsnews,smallstories,
+                     politics,jewellaryrate,entertainment,
+                     advertisement)>
+<!ATTLIST dinaanjal
+  xmlns CDATA #FIXED ''
+  newscode NMTOKEN #REQUIRED>
+
+<!ELEMENT dhinamalar (worldnews,nationalnews,interiornews,articles,
+                      businessnews,weather,sportsnews,smallstories,
+                      politics,jewellaryrate,entertainment,
+                      advertisement)>
+<!ATTLIST dhinamalar
+  xmlns CDATA #FIXED ''
+  newscode NMTOKEN #REQUIRED>
+
+<!ELEMENT worldnews (#PCDATA)>
+<!ATTLIST worldnews
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nationalnews (#PCDATA)>
+<!ATTLIST nationalnews
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT interiornews (#PCDATA)>
+<!ATTLIST interiornews
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT articles (#PCDATA)>
+<!ATTLIST articles
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT businessnews (#PCDATA)>
+<!ATTLIST businessnews
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT weather (#PCDATA)>
+<!ATTLIST weather
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sportsnews (#PCDATA)>
+<!ATTLIST sportsnews
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT smallstories (#PCDATA)>
+<!ATTLIST smallstories
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT politics (#PCDATA)>
+<!ATTLIST politics
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT jewellaryrate (#PCDATA)>
+<!ATTLIST jewellaryrate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT entertainment (#PCDATA)>
+<!ATTLIST entertainment
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT advertisement (#PCDATA)>
+<!ATTLIST advertisement
+  xmlns CDATA #FIXED ''>

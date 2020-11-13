@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+<thehindu code="c1">
+  <worldnews>WorldNews - 5</worldnews>
+  <nationalnews>NationalNews - 6</nationalnews>
+  <interiornews>InteriorNews - 1</interiornews>
+  <articles>Articles - 9 </articles>
+  <businessnews>BusinessNews - 7</businessnews>
+  <weather>Weather - 10</weather>
+  <sportsnews>SportNews - 12</sportsnews>
+  <smallstories>SmallStories - 8</smallstories>
+  <politics>Politics - 2</politics>
+  <jewellaryrate>Jewellaryrate - 3</jewellaryrate>
+  <entertainment>Entertainment - 4</entertainment>
+  <advertisement>Advertisement - 11</advertisement>
+</thehindu>
+<timesofindia newscode="c2">
+ <worldnews>WorldNews - 5</worldnews>
+  <nationalnews>NationalNews - 6</nationalnews>
+  <interiornews>InteriorNews - 1</interiornews>
+  <articles>Articles - 9 </articles>
+  <businessnews>BusinessNews - 7</businessnews>
+  <weather>Weather - 10</weather>
+  <sportsnews>SportNews - 12</sportsnews>
+  <smallstories>SmallStories - 8</smallstories>
+  <politics>Politics - 2</politics>
+  <jewellaryrate>Jewellaryrate - 3</jewellaryrate>
+  <entertainment>Entertainment - 4</entertainment>
+  <advertisement>Advertisement - 11</advertisement>
+</timesofindia>
+<indianexpress newscode="c3">
+ <worldnews>WorldNews - 5</worldnews>
+  <nationalnews>NationalNews - 6</nationalnews>
+  <interiornews>InteriorNews - 1</interiornews>
+  <articles>Articles - 9 </articles>
+  <businessnews>BusinessNews - 7</businessnews>
+  <weather>Weather - 10</weather>
+  <sportsnews>SportNews - 12</sportsnews>
+  <smallstories>SmallStories - 8</smallstories>
+  <politics>Politics - 2</politics>
+  <jewellaryrate>Jewellaryrate - 3</jewellaryrate>
+  <entertainment>Entertainment - 4</entertainment>
+  <advertisement>Advertisement - 11</advertisement>
+</indianexpress>
+<dinathanthi newscode="c4">
+ <worldnews>WorldNews - 5</worldnews>
+  <nationalnews>NationalNews - 6</nationalnews>
+  <interiornews>InteriorNews - 1</interiornews>
+  <articles>Articles - 9 </articles>
+  <businessnews>BusinessNews - 7</businessnews>
+  <weather>Weather - 10</weather>
+  <sportsnews>SportNews - 12</sportsnews>
+  <smallstories>SmallStories - 8</smallstories>
+  <politics>Politics - 2</politics>
+  <jewellaryrate>Jewellaryrate - 3</jewellaryrate>
+  <entertainment>Entertainment - 4</entertainment>
+  <advertisement>Advertisement - 11</advertisement>
+</dinathanthi>
+<dinaanjal newscode="c5">
+ <worldnews>WorldNews - 5</worldnews>
+  <nationalnews>NationalNews - 6</nationalnews>
+  <interiornews>InteriorNews - 1</interiornews>
+  <articles>Articles - 9 </articles>
+  <businessnews>BusinessNews - 7</businessnews>
+  <weather>Weather - 10</weather>
+  <sportsnews>SportNews - 12</sportsnews>
+  <smallstories>SmallStories - 8</smallstories>
+  <politics>Politics - 2</politics>
+  <jewellaryrate>Jewellaryrate - 3</jewellaryrate>
+  <entertainment>Entertainment - 4</entertainment>
+  <advertisement>Advertisement - 11</advertisement>
+</dinaanjal>
+<dhinamalar newscode="c6">
+ <worldnews>WorldNews - 5</worldnews>
+  <nationalnews>NationalNews - 6</nationalnews>
+  <interiornews>InteriorNews - 1</interiornews>
+  <articles>Articles - 9 </articles>
+  <businessnews>BusinessNews - 7</businessnews>
+  <weather>Weather - 10</weather>
+  <sportsnews>SportNews - 12</sportsnews>
+  <smallstories>SmallStories - 8</smallstories>
+  <politics>Politics - 2</politics>
+  <jewellaryrate>Jewellaryrate - 3</jewellaryrate>
+  <entertainment>Entertainment - 4</entertainment>
+  <advertisement>Advertisement - 11</advertisement>
+</dhinamalar>
+</news>

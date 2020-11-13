@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<details>
+<user uid="01">
+  <name>Priya</name>
+  <phone> 9967256241 </phone>
+  <location> Dindigul </location>
+  <email> piriyaa19@gmail.com </email>
+</user>
+<user uid="02">
+  <name>Karthi</name>
+  <phone> 9973625411 </phone>
+  <location> Chennai </location>
+  <email> karthi55@gmail.com </email>
+</user>
+<user uid="03">
+  <name>Madhu</name>
+  <phone> 9366275148 </phone>
+  <location> Villupuram </location>
+  <email> madhu2000@gmail.com </email>
+</user>
+<user uid="04">
+  <name>Meera</name>
+  <phone> 9964533298 </phone>
+  <location>Theni </location>
+  <email> meeramelody@gmail.com </email>
+</user>
+<user uid="05">
+  <name>Harsi</name>
+  <phone> 9435612475 </phone>
+  <location> Chennai </location>
+  <email> harsi@gmail.com </email>
+</user>
+<user uid="06">
+  <name>Siva</name>
+  <phone>9789502582 </phone>
+  <location> Theni </location>
+  <email> sivaa@gmail.com </email>
+</user>
+</details>
